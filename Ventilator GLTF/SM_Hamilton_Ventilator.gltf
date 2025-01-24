@@ -115,5 +115,33 @@
 				0
 			]
 		}
-	]
-}
+   	 ],
+   	 "images": [
+   	        {
+    	        "uri": "T_Ventilator_AORM.png"
+   	        },
+   	        {
+                "uri": "T_Ventilator_BC.png"
+        	},
+        	{
+            	"uri": "T_Ventilator_Nrm.png"
+		 }
+	    ],
+    	"textures": [
+        	{
+            	"name": "texture_0",
+         	   "sampler": 0,
+        	    "source": 0
+     	 	  },
+     		   {
+	            "name": "texture_1",
+	            "sampler": 1,
+	            "source": 1
+	        },
+	        {
+ 	           "name": "texture_2",
+ 	           "sampler": 2,
+ 	           "source": 2
+	        }
+	    ]
+	}
