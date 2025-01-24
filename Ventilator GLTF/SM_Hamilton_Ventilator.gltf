@@ -81,25 +81,14 @@
             "type": "SCALAR"
         }
     ],
-    "materials": [
-        {
-            "name": "M_Ventilator1",
-            "SG_MasterOpaque": {
-                "Basecolor": {
-                    "index": 1
-                },
-                "AORM": {
-                    "index": 0
-                },
-                "Normal": {
-                    "index": 2
-                },
-                "Emissive": {
-                    "index": null
-                }
-            }
-        }
-    ],
+	"materials": [
+		{
+			"name": "M_Ventilator",
+			"pbrMetallicRoughness": {
+				"metallicFactor": 0
+			}
+		}
+	],
     "meshes": [
         {
             "name": "SM_Hamilton_Ventilator",
