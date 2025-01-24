@@ -124,6 +124,26 @@
             ]
         }
     ],
+    "samplers": [
+        {
+		"magFilter": 9729,
+		"minFilter": 9729,
+		"wrapS": 10497,
+		"wrapT": 10497
+		},
+		{
+		"magFilter": 9729,
+		"minFilter": 9729,
+		"wrapS": 10497,
+		"wrapT": 10497
+		},
+		{
+		"magFilter": 9729,
+		"minFilter": 9729,
+		"wrapS": 10497,
+		"wrapT": 10497
+		},
+    ],
     "images": [
         {
             "uri": "T_Ventilator_AORM.png"
@@ -143,12 +163,12 @@
         },
         {
             "name": "texture_1",
-            "sampler": 1,
+            "sampler": 0,
             "source": 1
         },
         {
             "name": "texture_2",
-            "sampler": 2,
+            "sampler": 0,
             "source": 2
         }
     ]
