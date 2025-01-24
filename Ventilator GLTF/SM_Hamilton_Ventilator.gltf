@@ -87,6 +87,23 @@
 			"pbrMetallicRoughness": {
 				"metallicFactor": 0
 			}
+		},
+		{
+			"name": "M_Ventilator",
+			"SG_OpaqueMaster": {
+				"baseColorTexture": {
+					"index": 1
+				},
+				"metallicRoughnessTexture": {
+					"index": null
+				},
+				"normalTexture": {
+					"index": 2
+				},
+				"occlusionTexture": {
+					"index": 0
+				}
+			}
 		}
 	],
 	"meshes": [
@@ -114,6 +131,34 @@
 			"nodes": [
 				0
 			]
+		}
+	],
+	"images": [
+		{
+			"uri": "T_Ventilator_AORM.png"
+		},
+		{
+			"uri": "T_Ventilator_BC.png"
+		},
+		{
+			"uri": "T_Ventilator_Nrm.png"
+		}
+	],
+	"textures": [
+		{
+			"name": "texture_0",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "texture_1",
+			"sampler": 1,
+			"source": 1
+		},
+		{
+			"name": "texture_2",
+			"sampler": 2,
+			"source": 2
 		}
 	]
 }
