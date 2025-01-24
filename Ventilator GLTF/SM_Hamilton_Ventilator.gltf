@@ -84,7 +84,8 @@
 	"materials": [
 		{
 			"name": "M_Ventilator",
-			"SG_MasterOpaque": {
+			"pbrMetallicRoughness": {
+				"metallicFactor": 0
 			}
 		}
 	],
