@@ -1,86 +1,86 @@
 {
-    "asset": {
-        "version": "2.0",
-        "generator": "Unity 2022.3.49f1 glTFast 6.10.1"
-    },
-    "nodes": [
-        {
-            "name": "SM_Hamilton_Ventilator",
-            "mesh": 0
-        }
-    ],
-    "buffers": [
-        {
-            "uri": "SM_Hamilton_Ventilator.bin",
-            "byteLength": 878588
-        }
-    ],
-    "bufferViews": [
-        {
-            "buffer": 0,
-            "byteLength": 97218,
-            "target": 34963
-        },
-        {
-            "buffer": 0,
-            "byteLength": 781368,
-            "byteOffset": 97220,
-            "byteStride": 56,
-            "target": 34962
-        }
-    ],
-    "accessors": [
-        {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 13953,
-            "type": "VEC3",
-            "max": [
-                0.08635758,
-                1.52094352,
-                0.08729339
-            ],
-            "min": [
-                -0.50689286,
-                0,
-                -0.651596069
-            ]
-        },
-        {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 13953,
-            "type": "VEC3",
-            "byteOffset": 12
-        },
-        {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 13953,
-            "type": "VEC4",
-            "byteOffset": 24
-        },
-        {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 13953,
-            "type": "VEC2",
-            "byteOffset": 40
-        },
-        {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 13953,
-            "type": "VEC2",
-            "byteOffset": 48
-        },
-        {
-            "bufferView": 0,
-            "componentType": 5123,
-            "count": 48609,
-            "type": "SCALAR"
-        }
-    ],
+	"asset": {
+		"version": "2.0",
+		"generator": "Unity 2022.3.49f1 glTFast 6.10.1"
+	},
+	"nodes": [
+		{
+			"name": "SM_Hamilton_Ventilator",
+			"mesh": 0
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Hamilton_Ventilator.bin",
+			"byteLength": 878588
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 97218,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 781368,
+			"byteOffset": 97220,
+			"byteStride": 56,
+			"target": 34962
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 13953,
+			"type": "VEC3",
+			"max": [
+				0.08635758,
+				1.52094352,
+				0.08729339
+			],
+			"min": [
+				-0.50689286,
+				0,
+				-0.651596069
+			]
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 13953,
+			"type": "VEC3",
+			"byteOffset": 12
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 13953,
+			"type": "VEC4",
+			"byteOffset": 24
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 13953,
+			"type": "VEC2",
+			"byteOffset": 40
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 13953,
+			"type": "VEC2",
+			"byteOffset": 48
+		},
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 48609,
+			"type": "SCALAR"
+		}
+	],
 	"materials": [
 		{
 			"name": "M_Ventilator",
@@ -89,59 +89,31 @@
 			}
 		}
 	],
-    "meshes": [
-        {
-            "name": "SM_Hamilton_Ventilator",
-            "primitives": [
-                {
-                    "attributes": {
-                        "POSITION": 0,
-                        "NORMAL": 1,
-                        "TANGENT": 2,
-                        "TEXCOORD_0": 3,
-                        "TEXCOORD_1": 4
-                    },
-                    "indices": 5,
-                    "material": 0
-                }
-            ]
-        }
-    ],
-    "scene": 0,
-    "scenes": [
-        {
-            "name": "SM_Hamilton_Ventilator",
-            "nodes": [
-                0
-            ]
-        }
-    ],
-    "images": [
-        {
-            "uri": "T_Ventilator_AORM.png"
-        },
-        {
-            "uri": "T_Ventilator_BC.png"
-        },
-        {
-            "uri": "T_Ventilator_Nrm.png"
-        }
-    ],
-    "textures": [
-        {
-            "name": "texture_0",
-            "sampler": 0,
-            "source": 0
-        },
-        {
-            "name": "texture_1",
-            "sampler": 1,
-            "source": 1
-        },
-        {
-            "name": "texture_2",
-            "sampler": 2,
-            "source": 2
-        }
-    ]
+	"meshes": [
+		{
+			"name": "SM_Hamilton_Ventilator",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TANGENT": 2,
+						"TEXCOORD_0": 3,
+						"TEXCOORD_1": 4
+					},
+					"indices": 5,
+					"material": 0
+				}
+			]
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "SM_Hamilton_Ventilator",
+			"nodes": [
+				0
+			]
+		}
+	]
 }
